@@ -1,0 +1,1 @@
+# default['firefox']['version'] = '42.0'

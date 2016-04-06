@@ -1,0 +1,13 @@
+name             'reach_jenkins'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'sets up a jenkins box with rvm and firefox'
+long_description 'sets up a jenkins box with rvm'
+version          '0.1.0'
+
+depends 'apt'
+depends 'gdebi'
+depends 'java'
+depends 'rvm'
+depends 'jenkins'
