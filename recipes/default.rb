@@ -7,6 +7,11 @@
 # All rights reserved - Do Not Redistribute
 
 include_recipe 'apt'
+######################################################
+# Uncomment this section if you want to install chrome
+# include_recipe 'chrome'
+# include_recipe 'reach-chromedriver'
+######################################################
 #####################################################
 #Uncomment These lines if you want to install jenkins
 #include_recipe 'java'
@@ -24,12 +29,6 @@ include_recipe 'apt'
     action :install
   end
 end
-
-######################################################
-# Uncomment this section if you want to install chrome
-include_recipe 'chrome'
-include_recipe 'reach-chromedriver'
-######################################################
 
 ###########################################################
 # Uncomment this Section if you want to install our Firefox
