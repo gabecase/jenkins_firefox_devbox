@@ -1,0 +1,39 @@
+{
+  "name": "reach-chromedriver",
+  "description": "Installs/Configures reach-chromedriver",
+  "long_description": "Installs/Configures reach-chromedriver",
+  "maintainer": "Rackspace",
+  "maintainer_email": "reach.ops@lists.rackspace.com",
+  "license": "Apache 2.0",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "recommendations": {
+
+  },
+  "suggestions": {
+
+  },
+  "conflicting": {
+
+  },
+  "providing": {
+
+  },
+  "replacing": {
+
+  },
+  "attributes": {
+
+  },
+  "groupings": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0"
+}

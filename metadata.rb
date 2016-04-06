@@ -7,6 +7,8 @@ long_description 'sets up a jenkins box with rvm'
 version          '0.1.0'
 
 depends 'apt'
+depends 'chrome'
+depends 'reach-chromedriver'
 depends 'gdebi'
 depends 'java'
 depends 'rvm'

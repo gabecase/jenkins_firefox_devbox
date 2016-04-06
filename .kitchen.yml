@@ -1,5 +1,7 @@
 driver:
   name: vagrant
+  synced_folders:
+    - ["../reach", "/reach"]
   network:
     # Allow access to the Jenkins webui which is useful when troubleshooting
     - - forwarded_port
@@ -11,7 +13,7 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: ubuntu-14.04
+  - name: ubuntu-12.04
 
 suites:
   - name: default
